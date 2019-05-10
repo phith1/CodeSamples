@@ -1,5 +1,5 @@
 # HERMES Agrifood - Global Obesity Prevention Center
-### Johns Hopkins University School for Public Health
+## with the Johns Hopkins University's School for Public Health
 
 A major duty during my time with the GOPC was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
 
