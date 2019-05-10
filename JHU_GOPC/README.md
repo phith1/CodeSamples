@@ -3,8 +3,8 @@
 
 A major duty during my time with the GOPC was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
 
-### File Descriptions
-### -----------------
+File Descriptions
+-----------------
 1. village_geocoding.py: Took demographic census data and ground-truthed village locations based on the Google Maps Geolocation API. Villages with inconsistent and unclear results were manually verified before being removed. 
 2. village_data_collector.py: Reformatted or removed uninformative census data from the geographically-validated villages. 
 3. wholesale_data_collector.py: Reformatted or removed uninformative data from the ground-truthed wholesale markets. 
