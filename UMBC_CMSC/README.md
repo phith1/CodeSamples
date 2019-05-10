@@ -1,4 +1,4 @@
-# CodeSamples
+# UMBC Computer Science Program Code Samples
 
 Project Descriptions
 --------------------
