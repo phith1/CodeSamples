@@ -1,7 +1,14 @@
 # HERMES Agrifood
 
 
-A major duty during my time with JHU's Global Obesity Prevention Center was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
+A major duty during my time with JHU's Global Obesity Prevention Center was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES  (Highly Extensible Resource for Modeling Event-Driven Supply Chains) vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
+
+Noteworthy Tasks
+----------------
+* Geographic validation of census data from Odisha, India. Data for over 6,000 villages were tested by geocoding algorithms and manual verification, resulting in over 5,500 villages meeting requirements to be included in HERMES Agrifood simulations. 
+* Ensured simulated travel routes were viable by calculating a Detour Index and refining the algorithm until reaching a 99% confidence interval within 5% margin of error (p < 0.05). This allowed us to stop using the Google Directions API, saving the GOPC money as the code expanded to build travel routes between locations. 
+* Creation and integration of all levels and items in the supply chain (Villages, Wholesalers, Factories, Stores, Routes, etc) into a HERMES-compliant Manifest. Levels were managed according to location, population, and urbanicity to ensure that chain-topping producers weren't too abundant. Supply chain offerings were additionally modified by seasonal agricultural trends and availability. 
+* Post-processing of all documents into guaranteed HERMES-compliant formats and into Excel reports for ease of summary and dissemination. 
 
 
 File Descriptions
@@ -20,4 +27,4 @@ File Descriptions
 12. Routes_Generator.py: Creates supply chain routes between the various stores, including tiered trade between high-traffic and low-traffic wholesale markets. 
 13. utils.py: Contains easily accessible Haversine Distance function. 
 
-I can be reached at phith1@umbc.edu with any questions. 
+I can be reached at thompkins.phil@gmail.com with any questions. 
