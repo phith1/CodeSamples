@@ -1,7 +1,7 @@
 # HERMES Agrifood
 
 
-A major duty during my time with JHU's Global Obesity Prevention Center was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES  (Highly Extensible Resource for Modeling Event-Driven Supply Chains) vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
+A major duty during my time with JHU's Global Obesity Prevention Center (now PHICOR: Public Health Informatics Computational Operations Research team at CUNY) was to support a PhD student, Marie Spiker, in her efforts to repurpose the HERMES  (Highly Extensible Resource for Modeling Event-Driven Supply Chains) vaccine supply chain modeling software into an appliation that could model agricultural supply chains. In particular, I handled the majority of data preprocessing, converting census and geographic data into formats that HERMES could read and that humans could parse. 
 
 Noteworthy Tasks
 ----------------
