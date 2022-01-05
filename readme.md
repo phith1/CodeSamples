@@ -1,4 +1,4 @@
-# Code Samples: Folder Descriptions
+# Code Samples:
 --------------------
 **JHU_GOPC** contains 13 Python files created for the HERMES Agrifood project with the Global Obesity Prevention Center at Johns Hopkins University, now PHICOR at CUNY. Code is from 2018-2019.
 
